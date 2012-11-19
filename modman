@@ -1,2 +1,3 @@
-src/app/code/community/Webgriffe/TphPro     app/code/community/Webgriffe/TphPro
-src/app/etc/modules/*    app/etc/modules/
+src/app/code/community/Webgriffe/TphPro                            app/code/community/Webgriffe/TphPro
+src/app/etc/modules/Webgriffe_TphPro.xml                           app/etc/modules/Webgriffe_TphPro.xml
+src/app/design/frontend/base/default/layout/webgriffe/tphpro.xml   app/design/frontend/base/default/layout/webgriffe/tphpro.xml

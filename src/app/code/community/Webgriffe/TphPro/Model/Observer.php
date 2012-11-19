@@ -7,13 +7,6 @@
  */
 class Webgriffe_TphPro_Model_Observer {
 
-    public function addHandlesBlock($observer) {
-        $event = $observer->getEvent();
-        $layout = $event->getLayout();
-        $handlesBlock = $layout->createBlock('Webgriffe_TphPro_Block_Handles', 'webgriffe_tphpro_handles');
-        $layout->addOutputBlock('webgriffe_tphpro_handles');
-    }
-
     public function addTemplateHints($observer) {
         $event = $observer->getEvent();
         $block = $event->getBlock();

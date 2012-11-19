@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="after_body_start">
+            <block type="webgriffe_tphpro/handles" name="webgriffe_tphpro_handles" />
+        </reference>
+    </default>
+</layout>

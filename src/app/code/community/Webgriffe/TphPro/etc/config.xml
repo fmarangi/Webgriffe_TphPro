@@ -22,19 +22,15 @@
             </webgriffe_tphpro>
         </models>
     </global>
-    
     <frontend>
+        <layout>
+            <updates>
+                <webgriffe_tphpro>
+                    <file>webgriffe/tphpro.xml</file>
+                </webgriffe_tphpro>
+            </updates>
+        </layout>
         <events>
-            <controller_action_layout_generate_blocks_before>
-                <observers>
-                    <webgriffe_tphpro_generate_blocks_before>
-                        <type>singleton</type>
-                        <class>webgriffe_tphpro/observer</class>          
-                        <method>addHandlesBlock</method>
-                    </webgriffe_tphpro_generate_blocks_before>
-                </observers>    
-            </controller_action_layout_generate_blocks_before>
-            
             <core_block_abstract_to_html_after>
                 <observers>
                     <webgriffe_tphpro_block_to_html_after>
